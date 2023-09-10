@@ -37,22 +37,7 @@ my $peerhost='localhost';
 my $port=2009;
 
 my $peerloc=$ARGV[0] || 'nada';
-#$peerhost='172.23.88.37' if $peerloc eq 'p';
-if ($peerloc eq 'p-1') { $peerhost='172.23.88.77'; $port=2010; } # can2 ze
-if ($peerloc eq 'p-2') { $peerhost='172.23.88.77'; $port=2011; } # can0 bms
-if ($peerloc eq 'p-3') { $peerhost='172.23.88.77'; $port=2012; } # can1 gm
-if ($peerloc eq 'v-77') { $peerhost='172.23.88.77'; $port=2013; } # vcan0
-if ($peerloc eq 'v-12') { $peerhost='172.23.95.12'; $port=2113; } # vcan0
-if ($peerloc eq 'a-1') { $peerhost='172.23.95.12'; $port=2110; } # slcan0 ze
-if ($peerloc eq 'a-2') { $peerhost='172.23.95.12'; $port=2111; } # slcan1 bms
-if ($peerloc eq 'a2-1') { $peerhost='172.23.95.13'; $port=2010; } # slcan0 ze
-if ($peerloc eq 'a2-2') { $peerhost='172.23.95.13'; $port=2011; } # slcan1 bms
-if ($peerloc eq 'a-i1') { $peerhost='172.23.95.245'; $port=2010; } # intern can2 ze
-if ($peerloc eq 'a-i2') { $peerhost='172.23.95.245'; $port=2011; } # intern can1 bms out
-if ($peerloc eq 'a-i3') { $peerhost='172.23.95.245'; $port=2012; } # intern can2 bms in
-if ($peerloc eq 'a2-i1') { $peerhost='172.23.95.223'; $port=2010; } # intern can0 ze
-if ($peerloc eq 'a2-i2') { $peerhost='172.23.95.223'; $port=2011; } # intern can2 bms out
-if ($peerloc eq 'a2-i3') { $peerhost='172.23.95.223'; $port=2012; } # intern can1 bms in
+if ($peerloc eq 'xxx-1') { $peerhost='1.2.3.4'; $port=2010; } # can2 ze
 
 #my $socket = solhybrid_spp::connect($peerhost);
 
